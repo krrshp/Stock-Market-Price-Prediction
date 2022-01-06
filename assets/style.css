@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Tangerine", sans-serif;
 }
 
 body {
@@ -89,6 +89,6 @@ body {
 }
 
 #logo {
-  max-width: 15rem;
+  max-width: 20rem;
   height: auto;
 }
