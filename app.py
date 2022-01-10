@@ -36,7 +36,7 @@ def get_more(df):
 app = dash.Dash(
     __name__,
     external_stylesheets=[
-        "https://fonts.googleapis.com/css2?family=Tangerine&display=auto"
+        "https://fonts.googleapis.com/css2?family=Roboyo&display=swap"
     ])
 server = app.server
 # html layout of site
@@ -45,7 +45,8 @@ app.layout = html.Div(
         html.Div(
             [
                 # Navigation
-                html.P("Welcome to My Stock Dash App. Here U will Get All Latest Updates on Stock Market Prices", className="start"),
+                html.P("Welcome to My Stock Dash App., className="start"),
+                html.p("Here U will Get All Latest Updates on Stock Market Prices")
                 html.Div([
                     html.P("Please Input the Stock Code: "),
                     html.Div([
