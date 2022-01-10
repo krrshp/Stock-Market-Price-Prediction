@@ -45,8 +45,7 @@ app.layout = html.Div(
         html.Div(
             [
                 # Navigation
-                html.P("Welcome to My Stock Dash App., className="start"),
-                html.p("Here U will Get All Latest Updates on Stock Market Prices")
+                html.P("Welcome to My Stock Dash App.<br> Here U will Get All Latest Updates on Stock Market Prices., className="start"),
                 html.Div([
                     html.P("Please Input the Stock Code: "),
                     html.Div([
