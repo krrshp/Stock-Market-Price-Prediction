@@ -14,7 +14,7 @@ body {
 
 .nav {
   /*position: fixed;*/
-  width: 25vw;
+  width: 24vw;
   /* height: 100%; */
   align-items: center;
   display: flex;
@@ -24,8 +24,8 @@ body {
 }
 
 .content {
-  width: 65vw;
-  padding: 1rem 5rem;
+  width: 63vw;
+  padding: 2rem 6rem;
 }
 
 .start {
@@ -90,5 +90,5 @@ body {
 
 #logo {
   max-width: 40rem;
-  height: 30;
+  height: 30rem;
 }
