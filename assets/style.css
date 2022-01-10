@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: 0;
-  font-family: "Tangerine", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -14,7 +14,7 @@ body {
 
 .nav {
   /*position: fixed;*/
-  width: 24vw;
+  width: 25vw;
   /* height: 100%; */
   align-items: center;
   display: flex;
@@ -24,13 +24,13 @@ body {
 }
 
 .content {
-  width: 63vw;
+  width: 60vw;
   padding: 2rem 6rem;
 }
 
 .start {
-  margin-top: 2rem;
-  margin-bottom: 5rem;
+  margin-top: 3rem;
+  margin-bottom: 6rem;
   text-align: center;
   font-size: larger;
   color: rgb(166, 243, 248);
