@@ -24,13 +24,13 @@ body {
 }
 
 .content {
-  width: 60vw;
-  padding: 2rem 6rem;
+  width: 65vw;
+  padding: 1rem 5rem;
 }
 
 .start {
-  margin-top: 3rem;
-  margin-bottom: 6rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
   text-align: center;
   font-size: larger;
   color: rgb(166, 243, 248);
@@ -90,5 +90,5 @@ body {
 
 #logo {
   max-width: 15rem;
-  height: 20rem;
+  height: auto;
 }
