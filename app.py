@@ -120,7 +120,8 @@ def update_data(n, val):  # inpur parameter(s)
             inf = ticker.info
             df = pd.DataFrame().from_dict(inf, orient="index").T
             df[['logo_url', 'shortName', 'longBusinessSummary']]
-            return df['logo_url'].values[0], df['shortName'].values[0], df['longBusinessSummary'].values[0], None, None, None
+            return df['longBusinessSummary'].values[0], df['logo_url'].values[
+                0], df['shortName'].values[0], None, None, None
 
 
 # callback for stocks graphs
