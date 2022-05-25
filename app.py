@@ -1,6 +1,6 @@
 import dash
 from dash import dcc
-from dash import htmll
+from dash import html
 from datetime import datetime as dt
 import yfinance as yf
 from dash.dependencies import Input, Output, State
